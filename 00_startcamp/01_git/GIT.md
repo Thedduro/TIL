@@ -15,5 +15,12 @@
         - **`git config --global user.name "Your Name"`**
     - **`code ~/.gitconfig`**: VScode에서 열기
     - **`git log`**:
+3. **원격 저장소**
+    - GitLab: 싸피 과제 제출용
+    - GitHub: 포트폴리오용
+    - 레파지토리 초기 설정
+        - **`git remote add origin https://github.com/Thedduro/TIL.git`**
+        - **`git rmote -v`**
+    - **`git push -u origin main`**: PUSH 하기
 </div>
 </details>
