@@ -1,3 +1,4 @@
+## git 설정 연습
 1. git config 초기화
     - `git config --global 설정` 삭제
     - `code ~/.gitconfig` 실행

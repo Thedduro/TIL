@@ -22,5 +22,17 @@
         - **`git remote add origin https://github.com/Thedduro/TIL.git`**
         - **`git rmote -v`**
     - **`git push -u origin main`**: PUSH 하기
+    
+    3.1 **branch**
+    - $ touch settings.py
+    - $ git add settings.py
+    - $ git commit -m '초기설정'
+    - $ git branch -c james/login
+    
+    - $ git switch james/login
+    - $ git branch # 브랜치 확인
+    - $ git log --oneline --graph # 브랜치 확인
+    - $ git push origin sunwoo # 원격저장소에 브랜치 푸시 > merge 리퀘스트
+    - $ git merge 
 </div>
 </details>
