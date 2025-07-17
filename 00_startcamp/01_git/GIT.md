@@ -33,6 +33,7 @@
     - $ git branch # 브랜치 확인
     - $ git log --oneline --graph # 브랜치 확인
     - $ git push origin sunwoo # 원격저장소에 브랜치 푸시 > merge 리퀘스트
-    - $ git merge 
+    - $ git merge  
+    - $ git push origin  -d thedduro/git # 원격저장소 브랜치 삭제
 </div>
 </details>
