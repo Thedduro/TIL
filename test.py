@@ -113,35 +113,50 @@ RESULT_HTML = '''
   <title>🍱 맞춤 식단 추천 결과</title>
   <style>
     body { background: #f8fafc; }
-    .container { max-width: 800px; margin-top: 40px; background: #fff; border-radius: 16px; box-shadow: 0 2px 16px #0001; padding: 32px; }
-    h2 { font-weight: bold; margin-bottom: 24px; }
-    h3 { margin-top: 32px; }
-    .card { margin-bottom: 24px; border: none; border-radius: 12px; box-shadow: 0 2px 8px #0001; }
-    .card-header { background: #f0f4fa; font-weight: 600; font-size: 1.2rem; }
-    pre { background: #f6f8fa; border-radius: 8px; padding: 16px; font-size: 1.05rem; }
+    .container { max-width: 900px; margin-top: 40px; background: #fff; border-radius: 16px; box-shadow: 0 2px 16px #0001; padding: 32px; }
+    h2 { font-weight: bold; margin-bottom: 32px; }
+    .section-title { font-size: 1.2rem; font-weight: 600; margin-top: 32px; margin-bottom: 12px; }
+    table { width: 100%; background: #f6f8fa; border-radius: 8px; margin-bottom: 24px; }
+    th, td { padding: 10px 8px; border: 1px solid #e0e0e0; text-align: center; }
+    th { background: #e9ecef; }
     .btn { margin-top: 24px; }
-    hr { margin: 32px 0; }
   </style>
+  <script>
+    // 마크다운 표를 HTML 테이블로 변환
+    function mdTableToHtml(md) {
+      if (!md.includes('|')) return '<div style="white-space:pre-line">'+md+'</div>';
+      let lines = md.trim().split('\n').filter(l=>l.trim() && !/^\s*\|?\s*-+/.test(l));
+      if (lines.length < 2) return '<div style="white-space:pre-line">'+md+'</div>';
+      let html = '<table class="table table-bordered table-striped">';
+      let headers = lines[0].split('|').map(x=>x.trim()).filter(Boolean);
+      html += '<thead><tr>' + headers.map(h=>'<th>'+h+'</th>').join('') + '</tr></thead><tbody>';
+      for (let i=1; i<lines.length; ++i) {
+        let cells = lines[i].split('|').map(x=>x.trim()).filter(Boolean);
+        if (cells.length === headers.length)
+          html += '<tr>' + cells.map(c=>'<td>'+c+'</td>').join('') + '</tr>';
+      }
+      html += '</tbody></table>';
+      return html;
+    }
+    window.addEventListener('DOMContentLoaded', function() {
+      let diet = document.getElementById('diet-md');
+      let ing = document.getElementById('ing-md');
+      if (diet) diet.outerHTML = mdTableToHtml(diet.textContent);
+      if (ing) ing.outerHTML = mdTableToHtml(ing.textContent);
+    });
+  </script>
 </head>
 <body>
   <div class="container">
     <h2>🍱 맞춤 식단 추천 결과</h2>
-    <div class="card border-primary">
-      <div class="card-header text-primary">🥗 추천 식단</div>
-      <div class="card-body"><pre>{{ diet }}</pre></div>
-    </div>
-    <div class="card border-warning">
-      <div class="card-header text-warning">💊 질병/복용 중인 약 정보</div>
-      <div class="card-body"><pre>{{ disease }}</pre></div>
-    </div>
-    <div class="card border-success">
-      <div class="card-header text-success">💪 예상 건강/체중 변화</div>
-      <div class="card-body"><pre>{{ prediction }}</pre></div>
-    </div>
-    <div class="card border-info">
-      <div class="card-header text-info">🍅 식단 재료별 영양 정보</div>
-      <div class="card-body"><pre>{{ ingredient_info }}</pre></div>
-    </div>
+    <div class="section-title">🥗 추천 식단</div>
+    <pre id="diet-md">{{ diet }}</pre>
+    <div class="section-title">💊 질병/복용 중인 약 정보</div>
+    <div style="background:#f6f8fa; border-radius:8px; padding:16px; margin-bottom:24px;">{{ disease }}</div>
+    <div class="section-title">💪 예상 건강/체중 변화</div>
+    <div style="background:#f6f8fa; border-radius:8px; padding:16px; margin-bottom:24px; white-space:pre-line;">{{ prediction }}</div>
+    <div class="section-title">🍅 식단 재료별 영양 정보</div>
+    <pre id="ing-md">{{ ingredient_info }}</pre>
     <a href="/" class="btn btn-secondary">다시 입력</a>
   </div>
 </body>
@@ -166,12 +181,14 @@ def index():
         fat = request.form.get('fat', '')
         bmi = request.form.get('bmi', '')
         etc = request.form.get('etc', '')
+        disease = request.form.get('disease', '')
         goal = request.form.get('goal', '')
         allergy = request.form.get('allergy', '')
 
         diet_prompt = f"""
-        아래 신체 정보와 목표, 알러지/비선호 재료를 참고해 하루 식단(아침, 점심, 저녁, 간식 포함)을 추천해줘. 각 끼니별로 구체적인 메뉴와 양을 제시하고, 제외해야 할 재료는 반드시 빼줘.
+        아래 신체 정보, 질병/복용약, 목표, 알러지/비선호 재료를 참고해 하루 식단(아침, 점심, 저녁, 간식 포함)을 추천해줘. 각 끼니별로 구체적인 메뉴와 양을 제시하고, 제외해야 할 재료는 반드시 빼줘. 표로 정리해줘.
         [신체 정보] 나이: {age}, 성별: {gender}, 키: {height}cm, 몸무게: {weight}kg, 골격근량: {muscle}, 체지방량: {fat}, BMI: {bmi}, 기타: {etc}
+        [질병/복용약] {disease}
         [목표] {goal}
         [알러지/비선호/제외 재료] {allergy}
         답변은 표 형식으로 끼니, 메뉴, 재료, 양을 구분해서 제공해줘.
@@ -179,9 +196,12 @@ def index():
         messages = [{"role": "user", "content": diet_prompt.strip()}]
         diet = get_openai_response(messages, clint)
 
+        disease_info = disease if disease.strip() else '입력된 정보 없음'
+
         predict_prompt = f"""
-        위에서 추천한 식단을 4주간 꾸준히 실천할 경우 예상되는 건강 변화(체중, 체지방, 근육량 등)를 간단히 예측해줘. 신체 정보와 목표를 참고해서 현실적으로 답변해줘.
+        위에서 추천한 식단을 4주간 꾸준히 실천할 경우 예상되는 건강 변화(체중, 체지방, 근육량 등)를 간단히 예측해줘. 신체 정보, 질병/복용약, 목표를 참고해서 현실적으로 답변해줘.
         [신체 정보] 나이: {age}, 성별: {gender}, 키: {height}cm, 몸무게: {weight}kg, 골격근량: {muscle}, 체지방량: {fat}, BMI: {bmi}, 기타: {etc}
+        [질병/복용약] {disease}
         [목표] {goal}
         """
         messages = [{"role": "user", "content": predict_prompt.strip()}]
@@ -193,7 +213,7 @@ def index():
         messages = [{"role": "user", "content": ingredient_prompt.strip()}]
         ingredient_info = get_openai_response(messages, clint)
 
-        return render_template_string(RESULT_HTML, diet=diet, prediction=prediction, ingredient_info=ingredient_info)
+        return render_template_string(RESULT_HTML, diet=diet, disease=disease_info, prediction=prediction, ingredient_info=ingredient_info)
     return render_template_string(FORM_HTML)
 
 if __name__ == "__main__":
