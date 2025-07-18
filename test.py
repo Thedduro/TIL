@@ -9,31 +9,143 @@ OPENAI_API_KEY = 'sk-proj-bHmOIvlzu70cDJDCzBNeQDC48gj1qt00SNezU5OTqGi96Yw27H4qyM
 clint = OpenAI(api_key=OPENAI_API_KEY)
 
 FORM_HTML = '''
-<h2>맞춤 식단 추천</h2>
-<form method="post">
-  나이: <input name="age"><br>
-  성별(남/여): <input name="gender"><br>
-  키(cm): <input name="height"><br>
-  몸무게(kg): <input name="weight"><br>
-  골격근량(kg): <input name="muscle"><br>
-  체지방량(kg): <input name="fat"><br>
-  BMI: <input name="bmi"><br>
-  기타 인바디 정보: <input name="etc"><br>
-  목표(다이어트, 벌크업 등): <input name="goal"><br>
-  알러지/비선호/제외 재료(쉼표로 구분): <input name="allergy"><br>
-  <input type="submit" value="식단 추천받기">
-</form>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>🍱 맞춤 식단 추천</title>
+  <style>
+    body { background: #f8fafc; }
+    .container { max-width: 500px; margin-top: 40px; background: #fff; border-radius: 16px; box-shadow: 0 2px 16px #0001; padding: 32px; }
+    h2 { font-weight: bold; margin-bottom: 24px; }
+    .form-label { font-weight: 500; }
+    .form-label .required { color: #e74c3c; margin-left: 2px; }
+    .btn-primary { width: 100%; }
+    .alert { margin-bottom: 16px; }
+  </style>
+  <script>
+    function validateForm() {
+      let required = ['age','gender','height','weight','goal'];
+      let valid = true;
+      required.forEach(function(name) {
+        let el = document.forms[0][name];
+        if (!el.value.trim()) {
+          el.classList.add('is-invalid');
+          valid = false;
+        } else {
+          el.classList.remove('is-invalid');
+        }
+      });
+      if (!valid) {
+        document.getElementById('form-alert').style.display = 'block';
+      } else {
+        document.getElementById('form-alert').style.display = 'none';
+      }
+      return valid;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>🍱 맞춤 식단 추천</h2>
+    <div id="form-alert" class="alert alert-danger" style="display:none;">필수 입력란을 모두 입력해 주세요.</div>
+    <form method="post" onsubmit="return validateForm()">
+      <div class="mb-3">
+        <label class="form-label">나이<span class="required">*</span></label>
+        <input name="age" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">성별(남/여)<span class="required">*</span></label>
+        <input name="gender" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">키(cm)<span class="required">*</span></label>
+        <input name="height" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">몸무게(kg)<span class="required">*</span></label>
+        <input name="weight" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">골격근량(kg)</label>
+        <input name="muscle" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">체지방량(kg)</label>
+        <input name="fat" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">BMI</label>
+        <input name="bmi" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">기타 인바디 정보</label>
+        <input name="etc" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">질병/복용 중인 약 (있으면)</label>
+        <input name="disease" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">목표(다이어트, 벌크업 등)<span class="required">*</span></label>
+        <input name="goal" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">알러지/비선호/제외 재료(쉼표로 구분)</label>
+        <input name="allergy" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary">식단 추천받기</button>
+    </form>
+  </div>
+</body>
+</html>
 '''
 
 RESULT_HTML = '''
-<h2>맞춤 식단 추천 결과</h2>
-<h3>추천 식단</h3>
-<pre>{{ diet }}</pre>
-<h3>예상 건강/체중 변화</h3>
-<pre>{{ prediction }}</pre>
-<h3>식단 재료별 영양 정보</h3>
-<pre>{{ ingredient_info }}</pre>
-<a href="/">다시 입력</a>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>🍱 맞춤 식단 추천 결과</title>
+  <style>
+    body { background: #f8fafc; }
+    .container { max-width: 800px; margin-top: 40px; background: #fff; border-radius: 16px; box-shadow: 0 2px 16px #0001; padding: 32px; }
+    h2 { font-weight: bold; margin-bottom: 24px; }
+    h3 { margin-top: 32px; }
+    .card { margin-bottom: 24px; border: none; border-radius: 12px; box-shadow: 0 2px 8px #0001; }
+    .card-header { background: #f0f4fa; font-weight: 600; font-size: 1.2rem; }
+    pre { background: #f6f8fa; border-radius: 8px; padding: 16px; font-size: 1.05rem; }
+    .btn { margin-top: 24px; }
+    hr { margin: 32px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🍱 맞춤 식단 추천 결과</h2>
+    <div class="card border-primary">
+      <div class="card-header text-primary">🥗 추천 식단</div>
+      <div class="card-body"><pre>{{ diet }}</pre></div>
+    </div>
+    <div class="card border-warning">
+      <div class="card-header text-warning">💊 질병/복용 중인 약 정보</div>
+      <div class="card-body"><pre>{{ disease }}</pre></div>
+    </div>
+    <div class="card border-success">
+      <div class="card-header text-success">💪 예상 건강/체중 변화</div>
+      <div class="card-body"><pre>{{ prediction }}</pre></div>
+    </div>
+    <div class="card border-info">
+      <div class="card-header text-info">🍅 식단 재료별 영양 정보</div>
+      <div class="card-body"><pre>{{ ingredient_info }}</pre></div>
+    </div>
+    <a href="/" class="btn btn-secondary">다시 입력</a>
+  </div>
+</body>
+</html>
 '''
 
 def get_openai_response(messages, clint, model="gpt-4o-mini"):
