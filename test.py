@@ -1,4 +1,4 @@
-
+# 바이브코딩 실습 - 맞춤식단 제공 웹 구현
 # Flask 웹앱 버전
 from flask import Flask, render_template_string, request
 from openai import OpenAI
