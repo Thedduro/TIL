@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 부모 div 설정 */
+    .main {
+      width: 700px;
+      height: 900px;
+      background-color: white;
+      border: 2px solid black;
+      margin: 0 auto;
+      padding: 20px;
+      z-index: 1;
+    }
+    /*자식 div-이미지*/
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      width: 100%;
+      bottom: 0px;
+      border: 1px solid white;
+      justify-content: center;
+      z-index: 1;
+    }
+    /* 자식 div-이름*/
+    .profile img {
+      width: 100%;
+      z-index: 0;
+    }
+    .name {
+      position: absolute;
+      bottom: 0px;
+      padding: 10px 300px;
+      background-color: aquamarine;
+      z-index: 1;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class = "main">
+    <div class = "profile">
+      <img src="image.png" alt="Profile Image">
+      <h2 class="name"><strong>Name</strong></h2>
+    </div>
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde officiis ad nostrum. Laboriosam mollitia similique provident fuga tenetur saepe sit, amet eaque neque eius quaerat expedita ea illum veniam.</p>
+  </div>
+</body>
+</html>
