@@ -1,0 +1,221 @@
+cast_id,movie_id,name,character,order
+9,1087192,Mason Thames,Hiccup,0
+10,1087192,Nico Parker,Astrid,1
+12,1087192,Gerard Butler,Stoick,2
+13,1087192,Nick Frost,Gobber,3
+15,1087192,Gabriel Howell,Snoutlout,4
+14,1087192,Julian Dennison,Fishlegs,5
+16,1087192,Bronwyn James,Ruffnut,6
+17,1087192,Harry Trevaldwyn,Tuffnut,7
+45,1087192,Murray McArthur,Hoark,8
+44,1087192,Peter Serafinowicz,Spitelout,9
+67,1087192,Naomi Wirthner,Gothi,10
+16,1071585,Jenna Davis,M3GAN (voice),0
+5,1071585,Allison Williams,Gemma,1
+6,1071585,Violet McGraw,Cady,2
+19,1071585,Ivanna Sakhno,AMELIA,3
+17,1071585,Amie Donald,M3GAN,4
+27,1071585,Brian Jordan Alvarez,Cole,5
+28,1071585,Jen Van Epps,Tess,6
+29,1071585,Aristotle Athari,Christian Bradley,7
+24,1071585,Timm Sharp,Agent Tim Sattler,8
+26,1071585,Jemaine Clement,Alton Appleton,9
+48,1071585,Mayen Mehta,Naveen Tripathi,10
+23,552524,Maia Kealoha,Lilo,0
+25,552524,Sydney Agudong,Nani,1
+18,552524,Chris Sanders,Stitch (voice),2
+19,552524,Zach Galifianakis,Jumba,3
+24,552524,Billy Magnussen,Pleakley,4
+27,552524,Courtney B. Vance,Cobra Bubbles,5
+30,552524,Amy Hill,Tūtū,6
+29,552524,Tia Carrere,Mrs. Kekoa,7
+28,552524,Kaipo Dudoit,David,8
+39,552524,Hannah Waddingham,Grand Councilwoman (voice),9
+40,552524,Jason Scott Lee,Lū'au Manager,10
+2,1311031,Natsuki Hanae,Tanjiro Kamado (voice),0
+4,1311031,Akari Kito,Nezuko Kamado (voice),1
+3,1311031,Yoshitsugu Matsuoka,Inosuke Hashibira (voice),2
+1,1311031,Hiro Shimono,Zenitsu Agatsuma (voice),3
+10,1311031,Toshihiko Seki,Muzan Kibutsuji (voice),4
+23,1311031,Reina Ueda,Kanao Tsuyuri (voice),5
+24,1311031,Nobuhiko Okamoto,Genya Shinazugawa (voice),6
+25,1311031,Takahiro Sakurai,Giyu Tomioka (voice),7
+26,1311031,Katsuyuki Konishi,Tengen Uzui (voice),8
+27,1311031,Kengo Kawanishi,Muichiro Tokito (voice),9
+28,1311031,Saori Hayami,Shinobu Kocho (voice),10
+17,1315986,Jon Voight,Sanborn,0
+13,1315986,Adam Woodward,Ryder,1
+18,1315986,Marton Csokas,Soach,2
+19,1315986,Charlotte Vega,Morgan,3
+11,1315986,Philip Winchester,Jack,4
+20,1315986,Charlotte Weston,Shelly,5
+15,1315986,Jeff Alexander,Timmons,6
+12,1315986,Nathan Cooper,Clerk,7
+10,1315986,Tim Fellingham,Roger Hammond,8
+21,1315986,Anaya Yalamov,Annie Hammond,9
+14,1315986,Nico Seedsman,Thug,10
+16,1061474,David Corenswet,Superman,0
+17,1061474,Rachel Brosnahan,Lois Lane,1
+24,1061474,Nicholas Hoult,Lex Luthor,2
+20,1061474,Edi Gathegi,Mr. Terrific,3
+21,1061474,Nathan Fillion,Guy Gardner,4
+18,1061474,Isabela Merced,Hawkgirl,5
+23,1061474,María Gabriela de Faría,The Engineer,6
+26,1061474,Skyler Gisondo,Jimmy Olsen,7
+81,1061474,Alan Tudyk,Gary,8
+186,1061474,Grace Chan,Superman Robot #12 (voice),9
+197,1061474,Bradley Cooper,Jor-El,10
+2,1011477,Jackie Chan,Mr. Han,0
+61,1011477,Ben Wang,Li Fong,1
+9,1011477,Joshua Jackson,Victor Lipani,2
+10,1011477,Sadie Stanley,Mia Lipani,3
+11,1011477,Ming-Na Wen,Dr. Fong,4
+13,1011477,Wyatt Oleff,Alan,5
+14,1011477,Aramis Knight,Conor,6
+3,1011477,Ralph Macchio,Daniel LaRusso,7
+32,1011477,Olivia Yang Avis,Young Girl,8
+33,1011477,Aaron Wang,Young Student,9
+34,1011477,Nicholas Carella,Fat Jerry,10
+1,1119878,Liam Neeson,Mike McCann,0
+4,1119878,Fan Bingbing,Dhani Yangchen,1
+41,1119878,Marcus Thomas,Gurty,2
+13,1119878,Grace O'Sullivan,Starr Myers,3
+31,1119878,Saksham Sharma,Vijay Rai,4
+7,1119878,Bernard Curry,Professor Myers,5
+9,1119878,Geoff Morrell,Spike,6
+6,1119878,Mahesh Jadu,Rudra Yash,7
+38,1119878,Amelia Bishop,Jeet,8
+12,1119878,Shivantha Wijesinha,Lieutenant Mangal,9
+32,1119878,CJ. Bloomfield,Yug,10
+1,1124619,Rebel Wilson,Sam,0
+3,1124619,Anna Camp,Betsy,1
+5,1124619,Anna Chlumsky,Virginia,2
+8,1124619,Da'Vine Joy Randolph,Lydia,3
+7,1124619,Gigi Zumbado,Zoe,4
+10,1124619,Sherry Cola,Nadine,5
+9,1124619,Sam Huntington,Ryan,6
+11,1124619,Michael O'Neill,Frank,7
+23,1124619,Colleen Camp,Diane,8
+6,1124619,Stephen Dorff,Kurt,9
+4,1124619,Justin Hartley,Chris,10
+23,617126,Pedro Pascal,Reed Richards / Mister Fantastic,0
+24,617126,Vanessa Kirby,Sue Storm / Invisible Woman,1
+26,617126,Ebon Moss-Bachrach,Ben Grimm / The Thing,2
+27,617126,Joseph Quinn,Johnny Storm / Human Torch,3
+38,617126,Ralph Ineson,Galactus,4
+33,617126,Julia Garner,Shalla-Bal / Silver Surfer,5
+36,617126,Paul Walter Hauser,Harvey Elder / Mole Man,6
+40,617126,Natasha Lyonne,Rachel Rozman,7
+76,617126,Sarah Niles,Lynne Nichols / F4 Chief of Staff,8
+155,617126,Mark Gatiss,Ted Gilbert,9
+192,617126,Ada Scott,Franklin Richards,10
+8,541671,Ana de Armas,Eve,0
+12,541671,Keanu Reeves,John Wick,1
+11,541671,Ian McShane,Winston,2
+14,541671,Anjelica Huston,The Director,3
+18,541671,Gabriel Byrne,The Chancellor,4
+15,541671,Catalina Sandino Moreno,Lena,5
+69,541671,Ava McCarthy,Ella,6
+70,541671,Juliet Doherty,Tatiana,7
+17,541671,Norman Reedus,Daniel Pine,8
+19,541671,Lance Reddick,Charon,9
+36,541671,Sharon Duncan-Brewster,Nogi,10
+20,1234821,Scarlett Johansson,Zora Bennett,0
+21,1234821,Jonathan Bailey,Dr. Henry Loomis,1
+48,1234821,Mahershala Ali,Duncan Kincaid,2
+45,1234821,Rupert Friend,Martin Krebs,3
+19,1234821,Manuel Garcia-Rulfo,Reuben Delgado,4
+49,1234821,Luna Blaise,Teresa Delgado,5
+50,1234821,David Iacono,Xavier Dobbs,6
+51,1234821,Audrina Miranda,Isabella Delgado,7
+52,1234821,Bechir Sylvain,LeClerc,8
+53,1234821,Philippine Velge,Nina,9
+54,1234821,Ed Skrein,Bobby Atwater,10
+1,1374534,Jandino Asporaat,Ramon,0
+2,1374534,Werner Kolf,Jack,1
+3,1374534,Mark Rietman,Richard van der Vloed,2
+4,1374534,Florence Vos Weeda,Dilan,3
+5,1374534,Juliette van Ardenne,Brenda,4
+6,1374534,Ferdi Stofmeel,Bruno,5
+7,1374534,Teun Kuilboer,Guido,6
+8,1374534,Daniël Kolf,Juan,7
+9,1374534,Victoria Koblenko,Lizzy,8
+10,1374534,Romana Vrede,Daphne de Koning,9
+11,1374534,Yannick Jozefzoon,Kevin,10
+8,803796,Arden Cho,Rumi (voice),0
+9,803796,May Hong,Mira (voice),1
+10,803796,Ji-young Yoo,Zoey (voice),2
+11,803796,Ahn Hyo-seop,Jinu (voice),3
+12,803796,Yunjin Kim,Celine (voice),4
+16,803796,Ken Jeong,Bobby (voice),5
+17,803796,Lee Byung-hun,Gwi-Ma (voice),6
+15,803796,Daniel Dae Kim,Healer Han / Additional Voices (voice),7
+13,803796,Joel Kim Booster,Variety Show Host 1 / Idol Host / Romance Saja (voice),8
+14,803796,Liza Koshy,Host (voice),9
+29,803796,Alan Lee,Pilot Demon / Variety Show Host 2 / Mystery Saja (voice),10
+6,986056,Florence Pugh,Yelena Belova,0
+7,986056,Sebastian Stan,Bucky Barnes,1
+5,986056,Julia Louis-Dreyfus,Valentina Allegra de Fontaine,2
+45,986056,Lewis Pullman,Robert Reynolds,3
+8,986056,David Harbour,Alexei Shostakov,4
+12,986056,Wyatt Russell,John Walker,5
+10,986056,Hannah John-Kamen,Ava Starr,6
+13,986056,Olga Kurylenko,Antonia Dreykov,7
+44,986056,Geraldine Viswanathan,Mel,8
+104,986056,Wendell Pierce,Congressman Gary,9
+105,986056,Chris Bauer,Holt,10
+18,574475,Kaitlyn Santa Juana,Stefani Reyes,0
+16,574475,Teo Briones,Charlie Reyes,1
+23,574475,Rya Kihlstedt,Darlene Campbell,2
+20,574475,Richard Harmon,Erik,3
+17,574475,Owen Patrick Joyner,Bobby,4
+14,574475,Anna Lore,Julia,5
+229,574475,Alex Zahara,Uncle Howard,6
+28,574475,April Telek,Aunt Brenda,7
+24,574475,Andrew Tinpo Lee,Marty Reyes,8
+25,574475,Tony Todd,William John Bludworth,9
+19,574475,Brec Bassinger,Iris (1960's),10
+1,1058537,Josh Burdett,Gabriel,0
+2,1058537,Arifin Putra,Trigger,1
+14,1058537,Cuba Gooding Jr.,Balthazar,2
+5,1058537,Michael Teh,Michael,3
+6,1058537,Denise Richards,Deborah,4
+15,1058537,Randy Couture,Marcus,5
+4,1058537,Korrina Rico,Leah,6
+3,1058537,Lee Kholafai,Paul,7
+7,1058537,Silvio Simac,Lucius,8
+8,1058537,Greg Canestrari,Padre,9
+16,1058537,William McNamara,Roman,10
+1,846422,Charlize Theron,Andromache of Scythia / Andy,0
+6,846422,KiKi Layne,Nile Freeman,1
+9,846422,Matthias Schoenaerts,Sebastien Le Livre / Booker,2
+2,846422,Marwan Kenzari,Yusuf Al-Kaysani / Joe,3
+3,846422,Luca Marinelli,Nicolò di Genova / Nicky,4
+7,846422,Veronica Ngo,Quynh,5
+8,846422,Chiwetel Ejiofor,Copley,6
+34,846422,Uma Thurman,Discord,7
+35,846422,Henry Golding,Tuah,8
+73,846422,Kamil Nożyński,Louis,9
+74,846422,Slavko Sobin,Konrad,10
+1,749170,Idris Elba,Sam Clarke,0
+2,749170,John Cena,Will Derringer,1
+8,749170,Priyanka Chopra Jonas,Noel Bisset,2
+9,749170,Paddy Considine,Viktor Gradov,3
+11,749170,Carla Gugino,VP Elizabeth Kirk,4
+10,749170,Stephen Root,Arthur Hammond,5
+12,749170,Jack Quaid,Marty Comer,6
+13,749170,Sarah Niles,Simone Bradshaw,7
+14,749170,Richard Coyle,Quincy Harrington,8
+17,749170,Aleksandr Kuznetsov,Sasha the Killer,9
+16,749170,Katrina Durden,Olga the Killer,10
+1,968171,Michiko Tsukasa,Sachiyo,0
+2,968171,Rie Nakagawa,Reiko,1
+3,968171,Yūko Katagiri,Machiko,2
+4,968171,Hiroshi Ichimura,Wada,3
+5,968171,Yasuhiko Ishizu,Hayasaka,4
+6,968171,Masumi Jun,Sumie,5
+7,968171,Hōsei Komatsu,Shinji,6
+8,968171,Dōji Musasabi,Evening Paper Boy,7
+9,968171,Akemi Nijo,Nobuko,8
+10,968171,Akira Takahashi,Tarô,9
+11,968171,Hajime Tanimoto,Ichikawa,10
