@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .done {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <form action="/todos/">
+    <input type="text">
+    <button>Todo</button>
+  </form>
+  <ul></ul>
+
+<script>
+  const form = document.querySelector('form')
+  const input = form.querySelector('input')
+  const ul = document.querySelector('ul')
+
+  /* 
+  전체 흐름:
+  1. input 텍스트를 ul > li 요소로 생성
+  2. 삭제 버튼을 li의 자식 요소로 생성
+  3. 삭제 버튼 클릭 시 li 요소를 삭제
+  4. li 요소 클릭 시 'done' 클래스를 토글하여 취소선 추가/제거
+  */
+
+  function addTodo (event) {
+    // 이벤트를 취소한다.
+    event.preventDefault()
+
+    // 입력 element를 찾고 해당 입력 element의 value 값을 저장한다.
+    const input_text = input.value.trim() //  trim은 앞 뒤 공백을 제거 
+    
+    //빈 값 입력 방지
+    if (input_text === '') {
+        alert('할 일을 입력해주세요')
+        return
+      }
+  
+    // li element를 생성 후 input element의 value 값을 데이터로 저장한다
+    const li = document.createElement('li')
+    li.textContent = input_text
+
+    // ul 태그의 자식 태그로 위에서 생성한 li element를 넣는다.
+    ul.appendChild(li)
+
+    // 삭제 버튼을 생성 후 li 태그의 자식 태그로 넣는다.
+    const deletebtn = document.createElement('button')
+
+    deletebtn.textContent = 'x'
+    deletebtn.style.color = 'red'
+
+    li.appendChild(deletebtn)
+
+    // 삭제 버튼을 클릭하면 해당 li element를 삭제한다
+    deletebtn.addEventListener('click', function(event) {
+      ul.removeChild(li)
+    })
+
+    // li element를 클릭하면 취소선이 토글된다.
+    li.addEventListener('click', function(event){
+      /*  토글 방식 설명:
+        - li.classList.toggle('done')를 사용하여
+          'done' 클래스가 있으면 제거, 없으면 추가함
+        - CSS에서 .done 클래스에 취소선 스타일 (line-through)을 지정
+
+        +++) li 요소가 .done 클래스를 가지고 있지 않으면 → 추가함
+            (즉, <li class="done">텍스트</li> 처럼 바뀜)
+            이미 .done 클래스를 가지고 있다면 → 제거함
+            (즉, <li>텍스트</li>로 돌아감)
+      */
+      li.classList.toggle('done')
+    })
+  }
+  form.addEventListener('submit', addTodo)
+</script>
+</body>
+</html>
