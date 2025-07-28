@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+      width: 100%;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    td {
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    .theme-color {
+      background-color: crimson;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <table id="clicktable">
+    <tr>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum dolor.</td>
+    </tr>
+    <tr>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum dolor.</td>
+    </tr>
+    <tr>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum dolor.</td>
+    </tr>
+  </table>
+
+  <script>
+    // 셀 요소 클릭(버블링 이용해서 테이블에 리스너 부착)
+    const table = document.querySelector('#clicktable')
+
+    // 콜백 함수 < 셀 클릭 시 theme-color 클래스 toggle
+    const detectClick = function(event){
+      if (event.target.tagName == 'TD') { // tagName 속성은 클릭한 요소의 태그명을 대문자 문자열로 반환. 예: 'TD', 'DIV', 'SPAN' 등
+        /*
+        element.classList.toggle()
+        - 클래스가 존재한다면 제거하고 false를 반환
+        - 존재하지 않으면 클래스를 추가하고 true를 반환
+        */
+        event.target.classList.toggle('theme-color')
+      }
+    }
+
+    // 버튼에 이벤트 핸들러 부착
+    table.addEventListener('click', detectClick)
+  </script>
+</body>
+
+</html>
