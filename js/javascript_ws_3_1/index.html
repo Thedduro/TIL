@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+      Input: <input id="userInput" type="text" autofocus>
+    </div>
+    <div>
+      Output: <span id="output"></span> 
+    </div>
+
+    <script>
+      /* 
+        현재 코드에서는 input#userInput에 입력한 내용이 그대로 span#output에 출력된다.
+        아래 이미지를 참고하여 badWords에 포함된 단어가 사용자 입력에 포함되어 있을 경우,
+        span#output에서 해당 단어를 **로 바꿔 출력하도록 filterMessage 함수를 완성하시오.
+      */
+      const badWords = ['바보', '멍청', '메롱', '시발']
+      const userInput = document.querySelector('#userInput')    
+      const output = document.querySelector('#output')
+
+      function filterMessage(event) {
+        // badWords에 포함된 단어가 입력될 경우, '**'으로 변환하여 output에 출력 
+        let inputText = event.target.value
+
+        badWords.forEach(word => {
+          if (inputText.includes(word)) {
+            const stars = '*'.repeat(word.length) // 단어 길이만큼 별표 생성
+            inputText = inputText.split(word).join(stars) // 변환 누적 반영
+          }
+        })
+        output.innerText = inputText
+      }
+
+      userInput.addEventListener('input', filterMessage)   
+    </script>
+</body>
