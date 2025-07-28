@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .font-crimson {
+      color: crimson;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="heading">Hover me!</h1>
+  <h2 class="sub-heading">Double Click me!</h2>
+  <p class="contents">Lorem ipsum dolor sit amet consectetur</p>
+
+  <script>
+    const randomTexts = [
+      'Lorem ipsum dolor sit amet consectetu',
+      'adipisicing elit. Repellendus delectus quam',
+      'similique quo ipsam maxime totam alias',
+      'quibusdam repudiandae voluptas dicta',
+      'voluptas voluptatibus exercitationem officiis'
+    ]
+
+    // 아래에 코드 작성
+    const head_event = document.querySelector('.heading')
+    const sub_event = document.querySelector('.sub-heading')
+    const content_event = document.querySelector('.contents')
+    
+    // h1: 마우스 오버시 텍스트 변경
+    const originalText = head_event.innerText
+    head_event.addEventListener('mouseover', function(event) {
+      head_event.innerText = 'I am being hovered'
+    })
+    head_event.addEventListener('mouseout', function (event) {
+      head_event.innerText = originalText
+    })
+
+    // 더블클릭 시 폰트색 변경
+    sub_event.addEventListener('dblclick', function(event) {
+      sub_event.classList.toggle('font-crimson')
+    })
+    
+    // 휠 이벤트 발생 시 텍스트 랜덤 변경
+    content_event.addEventListener('wheel', function (event) {
+      const index = Math.floor(Math.random() * randomTexts.length)
+      content_event.innerText = randomTexts[index]
+    })
+  </script>
+</body>
+</html>
