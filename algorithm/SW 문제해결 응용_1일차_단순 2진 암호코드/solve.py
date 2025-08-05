@@ -1,3 +1,7 @@
+import sys
+
+sys.stdin = open("input.txt", "r")
+
 num_dict = {
     '0001101': 0,
     '0011001': 1,
