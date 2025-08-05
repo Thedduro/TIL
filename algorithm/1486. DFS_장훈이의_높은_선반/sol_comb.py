@@ -16,7 +16,7 @@ def combination(arr, r):
 T = int(input())
 
 for tc in range(1, T+1):
-    N, B = map(int,input())
+    N, B = map(int,input()) # N=점원의 수, B=목표탑의 높이
     data = list(map(int, input().split))
 
     # 직원당 최대 키 10000 * 최대 직원수 20
