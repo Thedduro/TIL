@@ -25,7 +25,7 @@ def dfs(value, operator, idx):
             operator[op] -= 1 # 해당 연산자를 사용했으니까 > 한번 줄여주기
 
             new_value = get_value(value, number[idx], op) # 지금 값이랑 다음 값을 계산
-            dfs(new_value, operator, idx+1) # 재귀함수 > 
+            dfs(new_value, operator, idx+1) # 재귀함수 >
 
             operator[op] += 1 # 백트래킹 구현 > 다음 인덱스의 연산자 먼저 시작하는 로직
 
