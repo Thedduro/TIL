@@ -25,7 +25,7 @@ for tc in range(1, T+1):
         remain = list(set(arr) - set(case)) # set을 이용해서 나머지 음식 조합을 구함
         temp_value = abs(find(case) - find(remain)) # 두 음식의 맛의 차이를 구함
         
-        if result > temp_value:
+        if result > temp_value: # 최소값을 구하기 위해
             result = temp_value
     
     print(f'#{tc} {result}')
