@@ -10,6 +10,7 @@ def find(current_idx):
         if next_idx >= N:
             break
         
+        
         found = False
         for i in range(next_idx, current_idx, -1):
             if i in charge_stations:
