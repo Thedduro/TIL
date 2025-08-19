@@ -1,3 +1,6 @@
+# 1번 문제
+[swea 14510. 나무 높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)
+
 N개의 나무가 있다. 초기의 각 나무의 키가 주어진다.
 
 
