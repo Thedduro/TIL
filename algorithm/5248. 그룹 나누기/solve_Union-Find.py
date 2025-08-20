@@ -28,5 +28,5 @@ for tc in range(1, T+1):
 
         union(arr, x, y)
 
-    groups = set(find_set(arr, i) for i in range(1, N+1)) # 최상단 노드를 찾음 ex) 2,2,2,2 > 중복 제거 되니까 하나의 그룹으로
+    groups = set(find_set(arr, i) for i in range(1, N+1)) # 최상단 노드를 찾음 ex) 2,2,2,2 > 중복 제거 되니까 하나의 그룹으로 
     print(f"#{tc} {len(groups)}")
