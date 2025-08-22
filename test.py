@@ -5,7 +5,7 @@ from openai import OpenAI
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'YOUR API KEY'
 clint = OpenAI(api_key=OPENAI_API_KEY)
 
 FORM_HTML = '''
@@ -218,3 +218,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
