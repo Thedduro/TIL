@@ -1,0 +1,182 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$N6vk5qgIuM1A1G6MUHbSQn$t8V0RDanB1EEN0AHpQP+Z8pFHSUqanpsxkowViLYBuA=",
+        "last_login": "2025-08-22T01:49:24.930Z",
+        "is_superuser": false,
+        "username": "Bret",
+        "first_name": "Leanne",
+        "last_name": "Graham",
+        "email": "sincere@april.biz",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:24.659Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$El1uwbDyrOdnSsDKxiplzu$HT2zb4dLVwnrSJY4Qeh6lf2jNzNEtoyDXSqfUzeaJJ8=",
+        "last_login": "2025-08-22T01:49:25.215Z",
+        "is_superuser": false,
+        "username": "Antonette",
+        "first_name": "Ervin",
+        "last_name": "Howell",
+        "email": "shanna@melissa.tv",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:24.943Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$tdA3DHjI37axMGx4W9sxwA$6bHCvowMW4vFtx1hy2H3E2Ntl5R6Ia04VBUBNe08JzE=",
+        "last_login": "2025-08-22T01:49:25.483Z",
+        "is_superuser": false,
+        "username": "Samantha",
+        "first_name": "Clementine",
+        "last_name": "Bauch",
+        "email": "nathan@yesenia.net",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:25.224Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$Dzqc63xbEhbqYl1XqcpjSa$SwXhLxDo4etz0DzZXJv+d5eofT/D6GW3rLDQbM77zic=",
+        "last_login": "2025-08-22T01:49:25.753Z",
+        "is_superuser": false,
+        "username": "Karianne",
+        "first_name": "Patricia",
+        "last_name": "Lebsack",
+        "email": "julianne.oconner@kory.org",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:25.493Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$IpErywyBWteE09eOzA8aTL$dtXFfAEHHBuQ0ar8L6wiHxVEvTR2LdeF2DoGq5E3UgA=",
+        "last_login": "2025-08-22T01:49:26.025Z",
+        "is_superuser": false,
+        "username": "Kamren",
+        "first_name": "Chelsey",
+        "last_name": "Dietrich",
+        "email": "lucio_hettinger@annie.ca",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:25.763Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$6uWnEzZdjGXqaIR2Sf4cJj$iCVOMHKXvQelw8O1Hlp8pRhtWF78zUMqs43JJQzLYZU=",
+        "last_login": "2025-08-22T01:49:26.302Z",
+        "is_superuser": false,
+        "username": "Leopoldo_Corkery",
+        "first_name": "Mrs.",
+        "last_name": "Schulist",
+        "email": "karley_dach@jasper.info",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:26.033Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$PuP7GI9YTvAe5R2j4aWNWF$8xMMZz8I9Bw2ytRvWS/0fcGTkyHxrZ2dJJenRL/wWP8=",
+        "last_login": "2025-08-22T01:49:26.572Z",
+        "is_superuser": false,
+        "username": "Elwyn.Skiles",
+        "first_name": "Kurtis",
+        "last_name": "Weissnat",
+        "email": "telly.hoeger@billy.biz",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:26.311Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$f98dQ6HJRl5UvWfz7nlMGb$o6Tch0YTOF1q3zw+4cJO/RBIyeOQ9rNQYPyuIAn9814=",
+        "last_login": "2025-08-22T01:49:26.850Z",
+        "is_superuser": false,
+        "username": "Maxime_Nienow",
+        "first_name": "Nicholas",
+        "last_name": "V",
+        "email": "sherwood@rosamond.me",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:26.581Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$O7ZiLhBzFDPWawywiRXQQU$AwCxeG4sWKFSc41nflHcAqIjHBoqX/8uWUe5g3rwCm4=",
+        "last_login": "2025-08-22T01:49:27.120Z",
+        "is_superuser": false,
+        "username": "Delphine",
+        "first_name": "Glenna",
+        "last_name": "Reichert",
+        "email": "chaim_mcdermott@dana.io",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:26.859Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$INJRRfFcnTUl7yv61ExzIz$RE8fYrAVZ3jL+f9PE/rbSNTMoZkgAzPPY2iruDC5xAc=",
+        "last_login": "2025-08-22T01:49:27.387Z",
+        "is_superuser": false,
+        "username": "Moriah.Stanton",
+        "first_name": "Clementina",
+        "last_name": "DuBuque",
+        "email": "rey.padberg@karina.biz",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-08-22T01:49:27.129Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
