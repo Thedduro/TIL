@@ -28,4 +28,5 @@ for tc in range(1, T+1):
         if find_parent(parents, s) != find_parent(parents, e):
             union(parents, s, e)
             mst.append(w)
+            
     print(f'#{tc}', sum(mst))
