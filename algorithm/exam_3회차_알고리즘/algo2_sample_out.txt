@@ -1,0 +1,32 @@
+#1
+. . A A . . . A A . .
+. A A A A . A A A A .
+A A A A A A A A A A A
+A A A A A A A A A A A
+. A A A A A A A A A .
+. . A A A A A A A . .
+. . . A A A A A . . .
+. . . . A A A . . . .
+. . . . . A . . . . .
+#2
+. . A B C D . . . . B
+. A A B C D D . . B B
+A A A B C D D D B B B
+. A A B C D D . . B B
+. . A B C D . . . . B
+#3
+. . . . . . . A . . . . . . .
+. . . . . . A A A B . . . . .
+. . . . . A A A B B B . . . .
+. . . . A A A A A B . . . D .
+. . . A A A A A C . . . B D D
+. . A A A A A A C C . B B B .
+. A A A A A A A C C C . B . .
+A A A A A A A A A A A D D D .
+. A A A A A A A C C C . B . .
+. . A A A A A A C C . B B B .
+. . . A A A A A C . . . B D D
+. . . . A A A A A B . . . D .
+. . . . . A A A B B B . . . .
+. . . . . . A A A B . . . . .
+. . . . . . . A . . . . . . .
