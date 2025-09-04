@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <h1>조건문 연습하기</h1>
+
+    <!-- 요구사항: 버튼은 'Login/Logout' 고정 -->
+    <button @click="toggleLogin">Login/Logout</button>
+    
+    <!-- isLogin이 true일 때만 user 정보 렌더링 -->
+    <ul v-if="isLogin">
+      <li>유저네임 : {{ user.userName }}</li>
+      <li>관리자여부 : {{ user.isAdmin }}</li>
+      <li>비밀번호 : {{ user.passWord }}</li>
+    </ul>
+  </div> 
+
+  <!-- Vue3 CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+  <script>
+    const { createApp } = Vue
+
+    createApp({
+      data() {
+        return {
+          isLogin: false,
+          user: {
+            userName: 'admin',
+            isAdmin: true,
+            passWord: '1q2w3e4r',
+          },
+        }
+      },
+      methods: {
+        toggleLogin() {
+          this.isLogin = !this.isLogin
+        },
+      },
+    }).mount('#app')
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <h1>조건문 연습하기</h1>
+    <button>Login/Logout</button>
+    <ul>
+      <li>유저네임 : </li>
+      <li>관리자여부 : </li>
+      <li>비밀번호 : </li>
+    </ul>
+ </div> 
+ <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script>
+    /*
+      - Vue3 CDN을 사용한다.
+      1. 새로운 app instance를 생성하여 아이디가 app인 container에 mount 하시오.
+      2. 로그인 여부를 판별할 변수 isLogin을 작성한다.
+      3. `Login/Logout` 버튼을 클릭하면 isLogin에 할당된 값이 이전 값의 부정형이 되도록 하는 메서드가 실행되도록 한다.
+        - isLogin의 값이 true일때, 버튼이 클릭되면 false가 할당되어야 한다. false인 경우에는 true가 할당되어야 한다.
+      4. isLogin 정보가 true일 때만, user 정보가 화면에 렌덩링 될 수 있도록 한다.
+        - user 정보 객체는 다음의 속성들을 가진다.
+        - userName : `admin`
+        - isAdmin : true
+        - passWord : `1q2w3e4r`
+    */
+    const { createApp } = Vue
+    createApp({
+      data() {
+        return {
+          // 2. 로그인 여부를 판별할 상태
+          isLogin: false,
+          // 4. 화면에 보여줄 사용자 정보
+          user: {
+          userName: 'admin',
+          isAdmin: true,
+          passWord: '1q2w3e4r',
+          },
+        }
+      },
+      methods: {
+        // 3. Login/Logout 버튼 동작
+        toggleLogin() {
+          this.isLogin = !this.isLogin
+        },
+      },
+    }).mount('#app')
+  </script>
+</body>
+</html>
