@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4669edafc3c0cf21f20b5b4fbfd26ed4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4669edafc3c0cf21f20b5b4fbfd26ed4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4669edafc3c0cf21f20b5b4fbfd26ed4 = L.map(
+                "map_4669edafc3c0cf21f20b5b4fbfd26ed4",
+                {
+                    center: [37.4979, 127.0276],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_beb140f07b8c5d38fdbf9e72c0546199 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_beb140f07b8c5d38fdbf9e72c0546199.addTo(map_4669edafc3c0cf21f20b5b4fbfd26ed4);
+        
+    
+            var marker_e464f07f950fa4eed050336d96e1f334 = L.marker(
+                [37.4979, 127.0276],
+                {
+}
+            ).addTo(map_4669edafc3c0cf21f20b5b4fbfd26ed4);
+        
+    
+        var popup_60f3c584563cdb43690bd1f38b0e7fad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea5d7a90dd390710aacc8452dae7d80c = $(`<div id="html_ea5d7a90dd390710aacc8452dae7d80c" style="width: 100.0%; height: 100.0%;">강남구민체육관 (23863)</div>`)[0];
+                popup_60f3c584563cdb43690bd1f38b0e7fad.setContent(html_ea5d7a90dd390710aacc8452dae7d80c);
+            
+        
+
+        marker_e464f07f950fa4eed050336d96e1f334.bindPopup(popup_60f3c584563cdb43690bd1f38b0e7fad)
+        ;
+
+        
+    
+    
+            marker_e464f07f950fa4eed050336d96e1f334.bindTooltip(
+                `<div>
+                     23863
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd719d01da83001cb3f5385f0f43c7e6 = L.marker(
+                [37.4979, 127.0276],
+                {
+}
+            ).addTo(map_4669edafc3c0cf21f20b5b4fbfd26ed4);
+        
+    
+        var popup_191449ecf92a7f2d81215bf50edb8e1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5064accd3e7a9cde008ff6698b58dcdf = $(`<div id="html_5064accd3e7a9cde008ff6698b58dcdf" style="width: 100.0%; height: 100.0%;">강남구보건소 (23200)</div>`)[0];
+                popup_191449ecf92a7f2d81215bf50edb8e1b.setContent(html_5064accd3e7a9cde008ff6698b58dcdf);
+            
+        
+
+        marker_cd719d01da83001cb3f5385f0f43c7e6.bindPopup(popup_191449ecf92a7f2d81215bf50edb8e1b)
+        ;
+
+        
+    
+    
+            marker_cd719d01da83001cb3f5385f0f43c7e6.bindTooltip(
+                `<div>
+                     23200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_baf0ef26b8f5729527f074faadd128b2 = L.marker(
+                [37.4979, 127.0276],
+                {
+}
+            ).addTo(map_4669edafc3c0cf21f20b5b4fbfd26ed4);
+        
+    
+        var popup_8908e00a0e40aee8521fd5a9d726d407 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82a14ed176cbfe2274614d6c3327cc66 = $(`<div id="html_82a14ed176cbfe2274614d6c3327cc66" style="width: 100.0%; height: 100.0%;">강남구보건소 (23290)</div>`)[0];
+                popup_8908e00a0e40aee8521fd5a9d726d407.setContent(html_82a14ed176cbfe2274614d6c3327cc66);
+            
+        
+
+        marker_baf0ef26b8f5729527f074faadd128b2.bindPopup(popup_8908e00a0e40aee8521fd5a9d726d407)
+        ;
+
+        
+    
+    
+            marker_baf0ef26b8f5729527f074faadd128b2.bindTooltip(
+                `<div>
+                     23290
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_24dfa27ace3a141738d9e52dd4abd679 = L.marker(
+                [37.4979, 127.0276],
+                {
+}
+            ).addTo(map_4669edafc3c0cf21f20b5b4fbfd26ed4);
+        
+    
+        var popup_f37e6799e36ac6bc4672ad150b376f04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28870191a72b71ffafebfd129921fe20 = $(`<div id="html_28870191a72b71ffafebfd129921fe20" style="width: 100.0%; height: 100.0%;">강남구청.강남세무서 (23176)</div>`)[0];
+                popup_f37e6799e36ac6bc4672ad150b376f04.setContent(html_28870191a72b71ffafebfd129921fe20);
+            
+        
+
+        marker_24dfa27ace3a141738d9e52dd4abd679.bindPopup(popup_f37e6799e36ac6bc4672ad150b376f04)
+        ;
+
+        
+    
+    
+            marker_24dfa27ace3a141738d9e52dd4abd679.bindTooltip(
+                `<div>
+                     23176
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6026950e92a31da4059f19c16f8d76b6 = L.marker(
+                [37.4979, 127.0276],
+                {
+}
+            ).addTo(map_4669edafc3c0cf21f20b5b4fbfd26ed4);
+        
+    
+        var popup_603118734aca929134c1b559e1b384f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27aa6dd7cc1bf3b6f0024e44cdb2cbc7 = $(`<div id="html_27aa6dd7cc1bf3b6f0024e44cdb2cbc7" style="width: 100.0%; height: 100.0%;">강남구청.강남세무서 (23206)</div>`)[0];
+                popup_603118734aca929134c1b559e1b384f8.setContent(html_27aa6dd7cc1bf3b6f0024e44cdb2cbc7);
+            
+        
+
+        marker_6026950e92a31da4059f19c16f8d76b6.bindPopup(popup_603118734aca929134c1b559e1b384f8)
+        ;
+
+        
+    
+    
+            marker_6026950e92a31da4059f19c16f8d76b6.bindTooltip(
+                `<div>
+                     23206
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
