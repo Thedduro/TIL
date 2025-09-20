@@ -15,8 +15,8 @@ from datetime import datetime, timedelta  # 날짜 및 시간 계산을 위해 �
 '''
 
 # API 키 및 기본 URL 설정 (실제 사용 시 보안상 환경 변수로 관리하는 것이 바람직함)
-BUS_API_KEY = "796c76694d6c737738307a654c446c"  # 서울시 버스 교통 데이터 API 키 (빈칸 채우기)
-SUBWAY_API_KEY = "546c73634b6c737736394f6f6c7959"  # 서울시 지하철 교통 데이터 API 키 (빈칸 채우기)
+BUS_API_KEY = "YOUR API KEY"  # 서울시 버스 교통 데이터 API 키 (빈칸 채우기)
+SUBWAY_API_KEY = "YOUR API KEY" # 서울시 지하철 교통 데이터 API 키 (빈칸 채우기)
 BUS_URL = "http://openapi.seoul.go.kr:8088/"  # 서울시 버스 API 기본 URL
 SUBWAY_URL = "http://openapi.seoul.go.kr:8088/"  # 서울시 지하철 API 기본 URL
 
