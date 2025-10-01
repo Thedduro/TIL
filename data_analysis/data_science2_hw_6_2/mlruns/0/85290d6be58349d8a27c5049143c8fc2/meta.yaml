@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/thedduro/Desktop/data_science2_hw_6_2/mlruns/0/85290d6be58349d8a27c5049143c8fc2/artifacts
+end_time: 1759302462804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85290d6be58349d8a27c5049143c8fc2
+run_name: square_1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759302462792
+status: 3
+tags: []
+user_id: thedduro
