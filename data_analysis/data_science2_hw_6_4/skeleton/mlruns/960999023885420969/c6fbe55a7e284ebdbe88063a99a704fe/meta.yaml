@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/thedduro/Desktop/data_science2_hw_6_4/skeleton/mlruns/960999023885420969/c6fbe55a7e284ebdbe88063a99a704fe/artifacts
+end_time: 1759303168916
+entry_point_name: ''
+experiment_id: '960999023885420969'
+lifecycle_stage: active
+run_id: c6fbe55a7e284ebdbe88063a99a704fe
+run_name: rumbling-kit-138
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759303166464
+status: 3
+tags: []
+user_id: thedduro

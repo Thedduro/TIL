@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/thedduro/Desktop/data_science2_hw_6_4/skeleton/mlruns/960999023885420969/0ba7b273e257464ea83dfec5824a1c69/artifacts
+end_time: 1759303166462
+entry_point_name: ''
+experiment_id: '960999023885420969'
+lifecycle_stage: active
+run_id: 0ba7b273e257464ea83dfec5824a1c69
+run_name: glamorous-newt-396
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759303164102
+status: 3
+tags: []
+user_id: thedduro

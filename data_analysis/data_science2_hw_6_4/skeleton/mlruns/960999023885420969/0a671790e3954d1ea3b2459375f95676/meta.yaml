@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/thedduro/Desktop/data_science2_hw_6_4/skeleton/mlruns/960999023885420969/0a671790e3954d1ea3b2459375f95676/artifacts
+end_time: 1759303164101
+entry_point_name: ''
+experiment_id: '960999023885420969'
+lifecycle_stage: active
+run_id: 0a671790e3954d1ea3b2459375f95676
+run_name: aged-lamb-467
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759303161371
+status: 3
+tags: []
+user_id: thedduro

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/thedduro/Desktop/data_science2_hw_6_4/skeleton/mlruns/960999023885420969/17303dd6def2415f9fd09e4eec63536e/artifacts
+end_time: 1759303161369
+entry_point_name: ''
+experiment_id: '960999023885420969'
+lifecycle_stage: active
+run_id: 17303dd6def2415f9fd09e4eec63536e
+run_name: inquisitive-bird-169
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759303156644
+status: 3
+tags: []
+user_id: thedduro

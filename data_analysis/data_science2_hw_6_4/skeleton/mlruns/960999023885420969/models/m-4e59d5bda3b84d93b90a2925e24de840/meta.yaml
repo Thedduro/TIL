@@ -1,0 +1,10 @@
+artifact_location: file:///Users/thedduro/Desktop/data_science2_hw_6_4/skeleton/mlruns/960999023885420969/models/m-4e59d5bda3b84d93b90a2925e24de840/artifacts
+creation_timestamp: 1759303156788
+experiment_id: '960999023885420969'
+last_updated_timestamp: 1759303161366
+model_id: m-4e59d5bda3b84d93b90a2925e24de840
+model_type: null
+name: model
+source_run_id: 17303dd6def2415f9fd09e4eec63536e
+status: 2
+status_message: null

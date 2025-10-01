@@ -1,0 +1,30 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Gender",
+      "Married",
+      "Education",
+      "Self_Employed",
+      "ApplicantIncome",
+      "CoapplicantIncome",
+      "LoanAmount",
+      "Loan_Amount_Term",
+      "Credit_History",
+      "Property_Area"
+    ],
+    "data": [
+      [
+        0.36934132967673416,
+        -1.3756885296717603,
+        -0.5404676337745812,
+        -0.46365341559824436,
+        -0.3528020005260067,
+        -0.5632281059850605,
+        -1.1415219498717655,
+        0.28069138826167456,
+        0.39751587128632765,
+        1.2220391861200932
+      ]
+    ]
+  }
+}
