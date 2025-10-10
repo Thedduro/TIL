@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_4/skeleton/mlruns/408554526509276985/models/m-9849d728fdec430889ec60a6ffd1fc2a/artifacts
+creation_timestamp: 1760073633179
+experiment_id: '408554526509276985'
+last_updated_timestamp: 1760073637016
+model_id: m-9849d728fdec430889ec60a6ffd1fc2a
+model_type: null
+name: model
+source_run_id: 5d5cdcb8ac5b4b87980fb389bc683eba
+status: 2
+status_message: null

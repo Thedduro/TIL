@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_4/skeleton/mlruns/408554526509276985/5d5cdcb8ac5b4b87980fb389bc683eba/artifacts
+end_time: 1760073637098
+entry_point_name: ''
+experiment_id: '408554526509276985'
+lifecycle_stage: active
+run_id: 5d5cdcb8ac5b4b87980fb389bc683eba
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073633066
+status: 3
+tags: []
+user_id: SSAFY

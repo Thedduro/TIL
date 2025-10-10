@@ -1,0 +1,32 @@
+artifact_path: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_4/skeleton/mlruns/408554526509276985/models/m-9849d728fdec430889ec60a6ffd1fc2a/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.9
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 3.0.5
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-9849d728fdec430889ec60a6ffd1fc2a
+model_size_bytes: 174434
+model_uuid: m-9849d728fdec430889ec60a6ffd1fc2a
+prompts: null
+run_id: 5d5cdcb8ac5b4b87980fb389bc683eba
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: sparse_matrix_csr
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 35]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-10 05:20:33.261221'
