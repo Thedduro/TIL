@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/a3aefbe3daae48d898d67bdeb8590e7e/artifacts
+end_time: 1760073205029
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: a3aefbe3daae48d898d67bdeb8590e7e
+run_name: abundant-stoat-246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073204950
+status: 3
+tags: []
+user_id: SSAFY

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/e70be7df81254588b823d0d9b325bd44/artifacts
+end_time: 1760073203519
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: e70be7df81254588b823d0d9b325bd44
+run_name: angry-hound-564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203436
+status: 3
+tags: []
+user_id: SSAFY

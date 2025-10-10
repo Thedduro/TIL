@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/9e79a65ec57146cf9b1df70789d1fc08/artifacts
+end_time: 1760073204934
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 9e79a65ec57146cf9b1df70789d1fc08
+run_name: unique-bear-918
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073204845
+status: 3
+tags: []
+user_id: SSAFY

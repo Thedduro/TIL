@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/ea962bc692ca4e85bc97b4c4dfb47a63/artifacts
+end_time: 1760073203422
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: ea962bc692ca4e85bc97b4c4dfb47a63
+run_name: burly-snake-260
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203334
+status: 3
+tags: []
+user_id: SSAFY

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/fe6ba88d679e46a9b34db077e34c7c29/artifacts
+end_time: 1760073204192
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: fe6ba88d679e46a9b34db077e34c7c29
+run_name: abundant-turtle-518
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073204098
+status: 3
+tags: []
+user_id: SSAFY

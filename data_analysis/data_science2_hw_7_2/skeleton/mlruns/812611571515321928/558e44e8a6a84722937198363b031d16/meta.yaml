@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/558e44e8a6a84722937198363b031d16/artifacts
+end_time: 1760073203971
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 558e44e8a6a84722937198363b031d16
+run_name: amazing-penguin-422
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203875
+status: 3
+tags: []
+user_id: SSAFY

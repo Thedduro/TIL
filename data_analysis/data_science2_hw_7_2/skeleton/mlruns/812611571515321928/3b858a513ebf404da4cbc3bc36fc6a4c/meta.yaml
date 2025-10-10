@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/3b858a513ebf404da4cbc3bc36fc6a4c/artifacts
+end_time: 1760073204347
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 3b858a513ebf404da4cbc3bc36fc6a4c
+run_name: omniscient-pig-37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073204287
+status: 3
+tags: []
+user_id: SSAFY

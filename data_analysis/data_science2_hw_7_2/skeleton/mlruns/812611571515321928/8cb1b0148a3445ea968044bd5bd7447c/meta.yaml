@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/8cb1b0148a3445ea968044bd5bd7447c/artifacts
+end_time: 1760073203716
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 8cb1b0148a3445ea968044bd5bd7447c
+run_name: resilient-midge-824
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203645
+status: 3
+tags: []
+user_id: SSAFY

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/33a2d1a0d47b4d669f284d72454ae398/artifacts
+end_time: 1760073206110
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 33a2d1a0d47b4d669f284d72454ae398
+run_name: colorful-kite-198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073206031
+status: 3
+tags: []
+user_id: SSAFY

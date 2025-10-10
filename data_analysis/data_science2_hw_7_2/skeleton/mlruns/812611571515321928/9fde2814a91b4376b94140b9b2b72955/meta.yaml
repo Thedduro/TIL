@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/9fde2814a91b4376b94140b9b2b72955/artifacts
+end_time: 1760073204080
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 9fde2814a91b4376b94140b9b2b72955
+run_name: youthful-frog-398
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203987
+status: 3
+tags: []
+user_id: SSAFY

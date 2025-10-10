@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/7bfe6866ffd34137b853fff516bb020c/artifacts
+end_time: 1760073205292
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 7bfe6866ffd34137b853fff516bb020c
+run_name: likeable-toad-44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073205218
+status: 3
+tags: []
+user_id: SSAFY

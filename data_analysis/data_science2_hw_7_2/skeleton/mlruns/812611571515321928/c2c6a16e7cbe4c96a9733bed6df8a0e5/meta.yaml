@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/c2c6a16e7cbe4c96a9733bed6df8a0e5/artifacts
+end_time: 1760073203791
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: c2c6a16e7cbe4c96a9733bed6df8a0e5
+run_name: shivering-sow-382
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203731
+status: 3
+tags: []
+user_id: SSAFY

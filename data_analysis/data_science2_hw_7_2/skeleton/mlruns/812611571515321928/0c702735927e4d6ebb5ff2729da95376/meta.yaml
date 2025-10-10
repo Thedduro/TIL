@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/0c702735927e4d6ebb5ff2729da95376/artifacts
+end_time: 1760073204462
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 0c702735927e4d6ebb5ff2729da95376
+run_name: popular-perch-362
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073204368
+status: 3
+tags: []
+user_id: SSAFY

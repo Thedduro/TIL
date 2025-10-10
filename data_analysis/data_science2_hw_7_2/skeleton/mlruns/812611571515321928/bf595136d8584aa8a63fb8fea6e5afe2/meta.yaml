@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/bf595136d8584aa8a63fb8fea6e5afe2/artifacts
+end_time: 1760073203317
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: bf595136d8584aa8a63fb8fea6e5afe2
+run_name: adaptable-ray-100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073203071
+status: 3
+tags: []
+user_id: SSAFY

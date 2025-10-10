@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/SSAFY/Desktop/hw/data_science2_hw_7_2/skeleton/mlruns/812611571515321928/8c83fbadd40340619b67efb2e5476d62/artifacts
+end_time: 1760073205918
+entry_point_name: ''
+experiment_id: '812611571515321928'
+lifecycle_stage: active
+run_id: 8c83fbadd40340619b67efb2e5476d62
+run_name: righteous-fish-697
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760073205812
+status: 3
+tags: []
+user_id: SSAFY
