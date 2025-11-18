@@ -1,0 +1,101 @@
+transaction_id,timestamp,customer_id,transaction_type,amount,currency,stock_ticker,stock_price,news_text
+1000,2025-03-08 09:00:00,C015,Deposit,7341.46,EUR,MSFT,3148.38,Stock markets show volatility amid economic uncertainty
+1001,2025-03-08 09:05:00,C015,Deposit,3799.52,GBP,AAPL,2845.4,Nvidia GPU demand surges due to AI advancements
+1002,2025-03-08 09:10:00,C012,Payment,9582.15,EUR,NVDA,3739.48,Amazon announces new AI-powered logistics platform
+1003,2025-03-08 09:15:00,C001,Deposit,5103.73,EUR,AMZN,944.48,Apple stock rises after positive earnings report
+1004,2025-03-08 09:20:00,C007,Transfer,1734.76,GBP,AMZN,567.1,Microsoft expands cloud services to new regions
+1005,2025-03-08 09:25:00,C014,Withdrawal,9807.05,JPY,TSLA,3065.03,Microsoft expands cloud services to new regions
+1006,2025-03-08 09:30:00,C012,Payment,1514.8,GBP,TSLA,3947.51,Stock markets show volatility amid economic uncertainty
+1007,2025-03-08 09:35:00,C014,Payment,3453.28,EUR,AAPL,3993.0,Nvidia GPU demand surges due to AI advancements
+1008,2025-03-08 09:40:00,C013,Withdrawal,4373.03,EUR,MSFT,1766.3,Apple stock rises after positive earnings report
+1009,2025-03-08 09:45:00,C015,Withdrawal,9269.96,JPY,AMZN,1615.46,AI-driven trading strategies outperform traditional models
+1010,2025-03-08 09:50:00,C019,Withdrawal,5306.19,USD,NVDA,1392.17,Stock markets show volatility amid economic uncertainty
+1011,2025-03-08 09:55:00,C007,Payment,9612.36,GBP,TSLA,2385.76,Cryptocurrency adoption grows among institutional investors
+1012,2025-03-08 10:00:00,C002,Withdrawal,5796.22,GBP,AMZN,591.16,Regulatory changes impact global financial markets
+1013,2025-03-08 10:05:00,C013,Withdrawal,1567.68,JPY,AMZN,319.66,Stock markets show volatility amid economic uncertainty
+1014,2025-03-08 10:10:00,C011,Withdrawal,7443.22,EUR,MSFT,1404.6,Nvidia GPU demand surges due to AI advancements
+1015,2025-03-08 10:15:00,C003,Withdrawal,7519.0,GBP,AMZN,2435.73,Microsoft expands cloud services to new regions
+1016,2025-03-08 10:20:00,C018,Payment,1993.85,USD,AAPL,567.13,Microsoft expands cloud services to new regions
+1017,2025-03-08 10:25:00,C004,Deposit,2251.52,USD,AMZN,2321.06,Apple stock rises after positive earnings report
+1018,2025-03-08 10:30:00,C005,Withdrawal,9559.71,USD,TSLA,2986.57,Microsoft expands cloud services to new regions
+1019,2025-03-08 10:35:00,C017,Deposit,6235.3,USD,AAPL,3242.48,Central banks consider interest rate adjustments
+1020,2025-03-08 10:40:00,C012,Withdrawal,6694.28,JPY,NVDA,437.28,Amazon announces new AI-powered logistics platform
+1021,2025-03-08 10:45:00,C017,Transfer,4687.02,EUR,AMZN,2766.63,Stock markets show volatility amid economic uncertainty
+1022,2025-03-08 10:50:00,C007,Withdrawal,5598.88,EUR,AMZN,2357.25,Nvidia GPU demand surges due to AI advancements
+1023,2025-03-08 10:55:00,C002,Transfer,395.38,USD,AMZN,2674.99,AI-driven trading strategies outperform traditional models
+1024,2025-03-08 11:00:00,C007,Withdrawal,2003.0,GBP,TSLA,442.95,AI-driven trading strategies outperform traditional models
+1025,2025-03-08 11:05:00,C019,Transfer,4972.6,JPY,AAPL,717.46,Central banks consider interest rate adjustments
+1026,2025-03-08 11:10:00,C012,Transfer,4437.05,GBP,AMZN,2898.9,AI-driven trading strategies outperform traditional models
+1027,2025-03-08 11:15:00,C012,Withdrawal,6885.6,EUR,AAPL,2931.63,Microsoft expands cloud services to new regions
+1028,2025-03-08 11:20:00,C016,Withdrawal,153.2,JPY,MSFT,2498.27,Stock markets show volatility amid economic uncertainty
+1029,2025-03-08 11:25:00,C012,Withdrawal,5683.72,GBP,AMZN,2264.71,AI-driven trading strategies outperform traditional models
+1030,2025-03-08 11:30:00,C005,Deposit,4219.68,USD,AMZN,2886.15,Regulatory changes impact global financial markets
+1031,2025-03-08 11:35:00,C008,Deposit,8906.39,GBP,MSFT,3887.91,Regulatory changes impact global financial markets
+1032,2025-03-08 11:40:00,C015,Deposit,6195.44,USD,MSFT,1568.0,AI-driven trading strategies outperform traditional models
+1033,2025-03-08 11:45:00,C006,Transfer,2128.84,EUR,TSLA,3332.24,Microsoft expands cloud services to new regions
+1034,2025-03-08 11:50:00,C006,Payment,7115.52,JPY,AAPL,279.64,Apple stock rises after positive earnings report
+1035,2025-03-08 11:55:00,C017,Transfer,7062.85,JPY,AMZN,2236.16,Regulatory changes impact global financial markets
+1036,2025-03-08 12:00:00,C012,Payment,9622.8,EUR,MSFT,496.81,Central banks consider interest rate adjustments
+1037,2025-03-08 12:05:00,C015,Withdrawal,5458.39,EUR,AAPL,1538.2,Central banks consider interest rate adjustments
+1038,2025-03-08 12:10:00,C009,Withdrawal,5205.09,USD,MSFT,3489.06,Central banks consider interest rate adjustments
+1039,2025-03-08 12:15:00,C015,Transfer,7326.34,JPY,NVDA,1743.15,Tesla faces supply chain disruptions affecting production
+1040,2025-03-08 12:20:00,C019,Deposit,827.23,JPY,NVDA,3348.91,Nvidia GPU demand surges due to AI advancements
+1041,2025-03-08 12:25:00,C002,Deposit,9822.37,USD,AMZN,831.88,Apple stock rises after positive earnings report
+1042,2025-03-08 12:30:00,C015,Payment,9597.18,GBP,NVDA,1156.42,Microsoft expands cloud services to new regions
+1043,2025-03-08 12:35:00,C008,Transfer,7574.04,EUR,AAPL,2308.69,Stock markets show volatility amid economic uncertainty
+1044,2025-03-08 12:40:00,C009,Deposit,2394.71,USD,NVDA,2189.82,Amazon announces new AI-powered logistics platform
+1045,2025-03-08 12:45:00,C020,Transfer,7649.58,GBP,NVDA,510.29,Microsoft expands cloud services to new regions
+1046,2025-03-08 12:50:00,C011,Transfer,2429.69,EUR,TSLA,1114.25,Regulatory changes impact global financial markets
+1047,2025-03-08 12:55:00,C020,Withdrawal,5731.71,EUR,AAPL,3154.97,Nvidia GPU demand surges due to AI advancements
+1048,2025-03-08 13:00:00,C005,Payment,170.98,EUR,TSLA,1320.35,Cryptocurrency adoption grows among institutional investors
+1049,2025-03-08 13:05:00,C015,Withdrawal,1235.08,EUR,NVDA,3738.24,Amazon announces new AI-powered logistics platform
+1000,2025-11-11 09:00:00,C015,Deposit,7625.89,EUR,MSFT,3251.44,Investors react to new fiscal policy announcements
+1001,2025-11-11 09:05:00,C015,Deposit,4012.63,GBP,AAPL,2948.13,AI innovation boosts semiconductor competition
+1002,2025-11-11 09:10:00,C012,Payment,10012.84,EUR,NVDA,3854.92,Amazon expands logistics with autonomous delivery drones
+1003,2025-11-11 09:15:00,C001,Deposit,5489.32,EUR,AMZN,964.10,Apple unveils next-gen AI-driven processor
+1004,2025-11-11 09:20:00,C007,Transfer,1884.21,GBP,AMZN,584.52,Microsoft launches green data center initiative
+1005,2025-11-11 09:25:00,C014,Withdrawal,9501.77,JPY,TSLA,3120.48,EV market stabilizes amid supply chain recovery
+1006,2025-11-11 09:30:00,C012,Payment,1745.36,GBP,TSLA,4052.13,Stock volatility rises ahead of tech earnings week
+1007,2025-11-11 09:35:00,C014,Payment,3520.15,EUR,AAPL,3880.22,AI demand fuels surge in chip manufacturing
+1008,2025-11-11 09:40:00,C013,Withdrawal,4657.98,EUR,MSFT,1824.73,Apple announces global expansion of cloud services
+1009,2025-11-11 09:45:00,C015,Withdrawal,9433.50,JPY,AMZN,1718.42,AI systems surpass human traders in stock analysis
+1010,2025-11-11 09:50:00,C019,Withdrawal,5119.43,USD,NVDA,1455.64,Markets brace for upcoming central bank decision
+1011,2025-11-11 09:55:00,C007,Payment,9382.75,GBP,TSLA,2451.91,Digital assets gain traction among institutional investors
+1012,2025-11-11 10:00:00,C002,Withdrawal,5620.45,GBP,AMZN,620.54,Global regulators tighten crypto market oversight
+1013,2025-11-11 10:05:00,C013,Withdrawal,1695.81,JPY,AMZN,338.45,Financial markets show resilience despite headwinds
+1014,2025-11-11 10:10:00,C011,Withdrawal,7122.09,EUR,MSFT,1478.62,Semiconductor firms report record quarterly profits
+1015,2025-11-11 10:15:00,C003,Withdrawal,7350.82,GBP,AMZN,2572.93,Microsoft AI ecosystem expands across industries
+1016,2025-11-11 10:20:00,C018,Payment,2101.46,USD,AAPL,582.99,Tech companies prioritize sustainable operations
+1017,2025-11-11 10:25:00,C004,Deposit,2439.75,USD,AMZN,2398.77,Apple’s latest device sees strong early sales
+1018,2025-11-11 10:30:00,C005,Withdrawal,9803.25,USD,TSLA,3079.45,Cloud sector experiences steady post-pandemic growth
+1019,2025-11-11 10:35:00,C017,Deposit,6011.39,USD,AAPL,3329.01,Investors anticipate market correction after rally
+1020,2025-11-11 10:40:00,C012,Withdrawal,6981.56,JPY,NVDA,452.82,Amazon expands warehouse automation programs
+1021,2025-11-11 10:45:00,C017,Transfer,4922.33,EUR,AMZN,2815.67,Financial experts warn of overvalued tech stocks
+1022,2025-11-11 10:50:00,C007,Withdrawal,5792.64,EUR,AMZN,2410.38,Chipmakers accelerate AI infrastructure production
+1023,2025-11-11 10:55:00,C002,Transfer,430.54,USD,AMZN,2741.73,AI-driven trading systems achieve record profits
+1024,2025-11-11 11:00:00,C007,Withdrawal,2149.37,GBP,TSLA,468.91,Robotics revolutionizes financial data processing
+1025,2025-11-11 11:05:00,C019,Transfer,4821.15,JPY,AAPL,742.88,Interest rate policies reshape investment strategies
+1026,2025-11-11 11:10:00,C012,Transfer,4598.24,GBP,AMZN,2942.13,Startups utilize AI for personalized recommendations
+1027,2025-11-11 11:15:00,C012,Withdrawal,7158.77,EUR,AAPL,2842.16,Cloud security becomes critical for global firms
+1028,2025-11-11 11:20:00,C016,Withdrawal,199.45,JPY,MSFT,2522.61,Market uncertainty leads to cautious optimism
+1029,2025-11-11 11:25:00,C012,Withdrawal,5987.39,GBP,AMZN,2293.91,AI systems redefine customer service automation
+1030,2025-11-11 11:30:00,C005,Deposit,4421.67,USD,AMZN,2912.74,Regulatory updates drive fintech innovation
+1031,2025-11-11 11:35:00,C008,Deposit,9031.88,GBP,MSFT,3829.55,Digital transformation accelerates across Europe
+1032,2025-11-11 11:40:00,C015,Deposit,6493.17,USD,MSFT,1622.39,AI-powered analysis enhances risk management tools
+1033,2025-11-11 11:45:00,C006,Transfer,2229.40,EUR,TSLA,3422.84,Microsoft expands strategic partnerships in Asia
+1034,2025-11-11 11:50:00,C006,Payment,7433.18,JPY,AAPL,288.12,Global investors monitor AI market regulation
+1035,2025-11-11 11:55:00,C017,Transfer,7321.43,JPY,AMZN,2194.08,Fintech adoption rises among traditional banks
+1036,2025-11-11 12:00:00,C012,Payment,9881.24,EUR,MSFT,503.10,Analysts expect recovery in semiconductor supply
+1037,2025-11-11 12:05:00,C015,Withdrawal,5630.97,EUR,AAPL,1572.47,Global market sentiment improves after policy talks
+1038,2025-11-11 12:10:00,C009,Withdrawal,5478.32,USD,MSFT,3588.30,Investors diversify portfolios amid rising yields
+1039,2025-11-11 12:15:00,C015,Transfer,7419.25,JPY,NVDA,1795.46,Automotive firms adopt AI for predictive maintenance
+1040,2025-11-11 12:20:00,C019,Deposit,886.42,JPY,NVDA,3266.48,Chip design innovation drives competitive edge
+1041,2025-11-11 12:25:00,C002,Deposit,9974.58,USD,AMZN,852.73,AI-enhanced logistics increase delivery efficiency
+1042,2025-11-11 12:30:00,C015,Payment,9322.17,GBP,NVDA,1182.19,Microsoft unveils major AI service upgrade
+1043,2025-11-11 12:35:00,C008,Transfer,7780.55,EUR,AAPL,2285.60,Stock markets rally as inflation expectations drop
+1044,2025-11-11 12:40:00,C009,Deposit,2473.61,USD,NVDA,2255.94,AI infrastructure investments accelerate worldwide
+1045,2025-11-11 12:45:00,C020,Transfer,7529.37,GBP,NVDA,528.90,Tech leaders collaborate on ethical AI frameworks
+1046,2025-11-11 12:50:00,C011,Transfer,2583.96,EUR,TSLA,1153.42,Green technology companies attract global funding
+1047,2025-11-11 12:55:00,C020,Withdrawal,5829.25,EUR,AAPL,3187.55,Chip manufacturers announce AI-optimized GPUs
+1048,2025-11-11 13:00:00,C005,Payment,196.31,EUR,TSLA,1371.94,Digital innovation reshapes financial services
+1049,2025-11-11 13:05:00,C015,Withdrawal,1351.07,EUR,NVDA,3675.98,AI ecosystems strengthen across global markets
